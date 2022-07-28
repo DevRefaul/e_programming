@@ -5,7 +5,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.about-info{
+    background: #F4FAFD;
+}
+/* .about-img img{
+    image-orientation: from-image;
+    object-fit: cover;
+} */
 @media only screen and (max-width: 575px) {
     
     .course-img{
