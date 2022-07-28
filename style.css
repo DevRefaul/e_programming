@@ -5,3 +5,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+@media only screen and (max-width: 575px) {
+    
+    .course-img{
+        width: 100% ;
+    }
+    .course-img img{
+        width: 100% ;
+    }
+
+
+
+}
