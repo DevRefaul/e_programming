@@ -69,60 +69,67 @@
 
         <!-- carousel section start -->
 
-        <div class="container py-5">
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
+        <div class="carousel">
+            <div class="container py-5">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner rounded-2">
+
+                        <!-- first item -->
+                        <div class="carousel-item active ">
+                            <img src="img/cover/cover-1.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption  d-flex justify-content-center align-items-center ">
+                                <div class="texts">
+                                    <h5 class="fs-2">Start Your Digital Learning</h5>
+                                    <p>Start your journey with us and get the best courses. <br> THe best
+                                        teachers are waiting for you to build your career. </p>
+                                    <button class="btn btn-primary px-4">Get Started</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- second item -->
+                        <div class="carousel-item position-relative">
+                            <img src="img/cover/cover-3.jpg" class=" w-100" alt="...">
+                            <div class="carousel-caption  d-block position-absolute top-100 start-50 translate-middle">
+                                <h5>Learn Programming <br> Online</h5>
+                                <p>Start your journey with us and get the best courses. <br> THe best
+                                    teachers are waiting for you to build your career</p>
+                                <button class="btn btn-primary px-4">Get Started</button>
+                            </div>
+                        </div>
+
+                        <!-- third item -->
+                        <div class="carousel-item position-relative">
+                            <img src="img/cover/cover-2.jpg" class="d-block w-100" alt="...">
+                            <div
+                                class="carousel-caption  d-md-block position-absolute top-50 start-50 translate-middle">
+                                <h5>Get The Best <br> Support From Us</h5>
+                                <p>Start your journey with us and get the best courses. <br> THe best
+                                    teachers are waiting for you to build your career</p>
+                                <button class="btn btn-primary px-4">Get Started</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <div class="carousel-inner rounded-2">
-                    <div class="carousel-item active position-relative">
-                        <img src="img/cover/cover-1.png" class="d-block w-100" alt="...">
-                        <div class="carousel-caption  d-md-block position-absolute top-50 start-50 translate-middle ">
-                            <h5 class="fs-3">Get Started Your <br> Digital Learning</h5>
-                            <p>It is a long established fact that a reader will be distracted by the readable content of
-                                a page when looking at its
-                                layout.</p>
-                            <button class="btn btn-primary px-4">Get Started</button>
-                        </div>
-                    </div>
-                    <div class="carousel-item position-relative">
-                        <img src="img/cover/cover-4.jpg" class="d-block w-100" alt="...">
-                        <div
-                            class="carousel-caption d-none d-md-block position-absolute top-50 start-50 translate-middle">
-                            <h5>Learn Programming <br> Online</h5>
-                            <p>It is a long established fact that a reader will be distracted by the readable content of
-                                a page when looking at its
-                                layout..</p>
-                            <button class="btn btn-primary px-4">Get Started</button>
-                        </div>
-                    </div>
-                    <div class="carousel-item position-relative">
-                        <img src="img/cover/cover-2.jpg" class="d-block w-100" alt="...">
-                        <div
-                            class="carousel-caption d-none d-md-block position-absolute top-50 start-50 translate-middle">
-                            <h5>Get The Best <br> Support From Us</h5>
-                            <p>It is a long established fact that a reader will be distracted by the readable content of
-                                a page when looking at its
-                                layout..</p>
-                            <button class="btn btn-primary px-4">Get Started</button>
-                        </div>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
             </div>
         </div>
 
@@ -263,7 +270,7 @@
 
         <!-- about section start -->
 
-        <section id="about" class="my-5">
+        <section id="about" class="my-md-5">
 
             <div class="container py-5 ">
 
@@ -323,7 +330,7 @@
 
         <!-- register section start -->
 
-        <section id="register" class="my-5">
+        <section id="register" class="my-md-5">
 
             <div class="container py-5">
 
@@ -488,7 +495,7 @@
 
                 </div>
 
-                <div class="student-btn text-center py-3">
+                <div class="student-btn text-center  py-3">
                     <button class="btn btn-info text-white py-2 px-4 fw-semibold">View All</button>
                 </div>
 
@@ -512,10 +519,10 @@
 
                 <!-- review section -->
                 <div class="container overflow-hidden text-center py-3">
-                    <div class="row g-5">
+                    <div class="row g-3 g-md-5">
                         <!-- first review -->
-                        <div class="col-12 col-lg-6">
-                            <div class="p-3 border rounded-2">
+                        <div class="col-12 col-lg-6 p-1 p-md-5">
+                            <div class="p-1 p-md-3 border rounded-2">
                                 <div class="top-section p-2 d-flex justify-content-between">
                                     <img src="img/comma.png" alt="">
                                     <div class="stars">
@@ -548,8 +555,8 @@
 
 
                         <!-- second review -->
-                        <div class="col-12 col-lg-6 ">
-                            <div class="p-3 border rounded-2">
+                        <div class="col-12 col-lg-6 g-3 g-md-5">
+                            <div class="p-1 p-md-3 border rounded-2">
                                 <div class="top-section p-2 d-flex justify-content-between">
                                     <img src="img/comma.png" alt="">
                                     <div class="stars">

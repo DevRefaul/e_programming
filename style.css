@@ -19,6 +19,14 @@
 }
 @media only screen and (max-width: 575px) {
     
+    .carousel-item img{
+        height: 75vh;
+        object-fit: cover;
+    }
+    .carousel-caption{
+    bottom: 6.25rem ;
+
+    }
     .course-img{
         width: 100% ;
     }
@@ -26,6 +34,32 @@
         width: 100% ;
     }
 
-
-
+}
+@media only screen and (min-width: 576px) and (max-width:767px){
+    .carousel-caption {
+        bottom: 2.25rem ;
+    }
+  /* .carousel-item p {
+    font-size: 15px;
+  } */
+}
+@media only screen and (min-width: 768px) and (max-width:1023px){
+    .carousel-caption {
+        bottom: 6.25rem;
+    }
+}
+@media only screen and (min-width: 1024px) and (max-width:1199px){
+    .carousel-caption {
+        bottom: 8.25rem;
+    }
+}
+@media only screen and (min-width: 1200px) and (max-width:1439px){
+    .carousel-caption {
+        bottom: 10.25rem;
+    }
+}
+@media only screen and (min-width: 1440px){
+    .carousel-caption {
+        bottom: 13.25rem;
+    }
 }
