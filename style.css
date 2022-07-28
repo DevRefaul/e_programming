@@ -5,6 +5,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.carousel-item img{
+    filter: brightness(50%);
+}
 .about-info{
     background: #F4FAFD;
 }
